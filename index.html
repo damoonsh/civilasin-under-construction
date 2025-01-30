@@ -20,13 +20,29 @@
             margin: 20px 0; /* Adds space around paragraphs */
           font-size: 3rem;
         }
+
+        .phones {
+              display: flex;
+              align-items: center; /* Center vertically */
+          }
+          .phones span {
+              margin: 0 10px; /* Space between numbers and text */
+          }
+          .p-text {
+              text-align: right; /* Align text to the right */
+          }
     </style>
 </head>
   <body>
     <h1>Under Construction</h1>
     <img src="full_logo.png" alt="My Logo" />
     <div>
-        <p><b>تلفن ۰۲۱۸۸۰۱۰۸۴۴/۰۲۱۸۸۰۲۷۰۲۲  </b></p>
+      <div class="phones">
+        <span>۰۲۱۸۸۰۲۷۰۲۲</span> <!-- First number -->
+        <!-- Text in between -->
+        <span>۰۲۱۸۸۰۱۰۸۴۴</span> <!-- Second number -->
+        <p class="p-text">تلفن</p> 
+    </div>
         <p><b>فکس ۰۲۱۸۸۰۰۳۴۸۵</b></p>
     </div>
   </body>
