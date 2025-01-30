@@ -23,10 +23,13 @@
 
         .phones {
               display: flex;
+              width: 80%; 
               align-items: center; /* Center vertically */
           }
-          .phones span {
-              margin: 0 10px; /* Space between numbers and text */
+          .numbers {
+            text-align: left;
+              display: flex;
+            flex-direction: column;
           }
           .p-text {
               text-align: right; /* Align text to the right */
@@ -38,9 +41,10 @@
     <img src="full_logo.png" alt="My Logo" />
     <div>
       <div class="phones">
-        <span>۰۲۱۸۸۰۲۷۰۲۲</span> <!-- First number -->
-        <!-- Text in between -->
-        <span>۰۲۱۸۸۰۱۰۸۴۴</span> <!-- Second number -->
+        <div class="numbers">
+          <span>۰۲۱۸۸۰۲۷۰۲۲</span> 
+          <span>۰۲۱۸۸۰۱۰۸۴۴</span>
+        </div>
         <p class="p-text">تلفن</p> 
     </div>
         <p><b>فکس ۰۲۱۸۸۰۰۳۴۸۵</b></p>
